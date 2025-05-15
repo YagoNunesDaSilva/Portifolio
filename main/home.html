@@ -1,33 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/home.css">
     <title>Portifólio</title>
 </head>
-<body>
-<header class="nav">
- <nav>
-    <a href="home.html">Home</a>
-    <a href="sobre.html">Sobre mim</a>
-    <a href="contato.html">Contato</a>
-</nav>
-</header>
-    <main>
 
-            <h1 class="tt">Alguns dos meus projetos</h1><br>
-            <h3 class="tt">Conheça um  pouco do meu trabalho como dev web</h3>
-            <div class="slider">
-                <div class="slides">
-                    <input type="radio" name="radiobtn" id="radio1">
-                    <input type="radio" name="radiobtn" id="radio2">
-                    <input type="radio" name="radiobtn" id="radio3">
-                    <input type="radio" name="radiobtn" id="radio4">
+<body>
+    <header class="nav">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="sobre.html">Sobre mim</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="tt">Alguns dos meus projetos</h1><br>
+        <h3 class="tt">Conheça um pouco do meu trabalho como dev web</h3><br>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radiobtn" id="radio1">
+                <input type="radio" name="radiobtn" id="radio2">
+                <input type="radio" name="radiobtn" id="radio3">
+                <input type="radio" name="radiobtn" id="radio4">
+
+                <div class="slide first">
+                    <img src="../img/Idk.png" alt="img 1">
                 </div>
-            </div> 
-            <P>yago</P>
+                <div class="slide">
+                    <img src="../img/Idk.png" alt="img2">
+                </div>
+                <div class="slide">
+                    <img src="../img/Idk.png" alt="img3">
+                </div>
+                <div class="slide">
+                    <img src="../img/Idk.png" alt="img4">
+                </div>
+                <div class="navigation-auto">
+                    <div class="autoBtn1"></div>
+                    <div class="autoBtn2"></div>
+                    <div class="autoBtn3"></div>
+                    <div class="autoBtn4"></div>
+                </div>
+            </div>
+
+        <div class="manualNav">
+            <label for="radio1" class="manualBtn"></label>
+            <label for="radio2" class="manualBtn"></label>
+            <label for="radio3" class="manualBtn"></label>
+            <label for="radio4" class="manualBtn"></label>
+        </div>
+        </div>
     </main>
     <script href="../js/carrosel.js"></script>
 </body>
+
 </html>
