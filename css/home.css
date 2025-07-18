@@ -8,9 +8,8 @@
   font-weight: auto;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  color: #ffffff;
+  color: #1C1C1C;
 }
-
 .slider {
   margin: 0 auto;
   width: 800px;
@@ -81,7 +80,7 @@
 }
 
 .navigation-auto div {
-  border: 2px solid #4d8abb;
+  border: 2px solid #7A7A7A;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -117,12 +116,13 @@
 }
 
 body {
-  background-color: #4682B4;
+  background-color: #F4F4F4
+;
 
 }
 
 header.nav {
-  background-color: #000000;
+  background-color: #2E2E2E;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -154,7 +154,7 @@ nav a {
 }
 
 nav a:hover {
-  background: #4682B4;
+  background: #7A7A7A;
   color: #ffffff;
 
 }
